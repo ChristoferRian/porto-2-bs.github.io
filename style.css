@@ -1,0 +1,95 @@
+body{
+  min-height: auto;
+}
+
+/* navbar start----------------------------------------------------------------------------------- */
+.navbar-brand {
+  font-family: Viga;
+}
+
+
+/* navbar end------------------------------------------------------------------------------------- */
+
+/* About start */
+.about{
+  background-color:#ffffff ;
+}
+
+.slogan{
+  font-family: Neue Haas Grotesk Text;                                    
+}
+
+.lets-talk-button{
+  background-color: #8873ef !important;
+}
+.fa-youtube{
+  color: red;
+}
+
+
+
+
+/* about end */
+
+/* Project start */
+.project{
+  background-color:#059DC0 ;
+}
+/* project end */
+
+/* skills and experience starts*/
+.skills-experience{
+  background-color: #ffffff;
+}
+
+/* skills and experience ends */
+
+
+
+
+
+
+
+
+
+
+
+/* desktop version */
+@media (min-width: 992px) {
+  /* NAVBAR START----------------------------------------------------------------------------- */
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .slogan{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) ;
+    padding-left: 3rem;
+  }
+
+  .navbar-nav{
+  margin-left: 30rem !important; 
+  
+}
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+/* NAVBAR END--------------------------------------------------------------------------------- */
+ 
+
+/* ABOUT STARTS */
+
+
+/* About ends */
+}
